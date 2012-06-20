@@ -244,8 +244,6 @@ class FtpUpload implements FtpObserver
         //create Calendar instance
         Calendar now = Calendar.getInstance();
 
-        //System.out.println("Current date : " + (now.get(Calendar.MONTH) + 1) + "-" + now.get(Calendar.DATE) + "-" + now.get(Calendar.YEAR));
-
         //create an array of days
         String[] strDays = new String[]{"Sunday", "Monday", "Tuesday", "Wednesday", "Thusday", "Friday", "Saturday"};
 
@@ -257,8 +255,6 @@ class FtpUpload implements FtpObserver
     {
         //create Calendar instance
         Calendar now = Calendar.getInstance();
-
-        //System.out.println("Current date : " + (now.get(Calendar.MONTH) + 1) + "-" + now.get(Calendar.DATE) + "-" + now.get(Calendar.YEAR));
 
         //create an array of days
         String[] strDays = new String[]{"January", "February", "March", "April", "May", "June", "July","August", "September","October","November","December"};
